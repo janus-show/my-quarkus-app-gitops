@@ -1,0 +1,15 @@
+app:
+  name: my-quarkus-app
+  namespace: my-quarkus-app-dev
+  cluster: .apps.cluster-pmwj7.pmwj7.sandbox2247.opentlc.com
+
+git:
+  branch: main
+  repo: https://github.com/janus-show/my-quarkus-app
+  org: janus-show
+  name: my-quarkus-app
+
+image:
+  host: image-registry.openshift-image-registry.svc:5000
+  name: my-quarkus-app
+  tag: latest
